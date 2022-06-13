@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Cedarville+Cursive&family=DM+Serif+Text:ital@0;1&family=Grandstander:wght@300;500&family=Montserrat:wght@100;300;500&family=Pacifico&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Quicksand:wght@300;400&family=Righteous&family=Seaweed+Script&family=Tinos:wght@400;700&family=UnifrakturCook&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background: #ffc9c9;
+}
+
+nav {
+  background-image: url("https://assets.codepen.io/8046572/Screen+Shot+2022-06-10+at+4.58.48+PM.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  text-align: left;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Tinos";
+  font-weight: 400;
+  margin: 0;
+}
+a:link {
+  color: black;
+}
+a: visted {
+  color: black;
+}
+a:hover {
+  color: #f40909;
+}
+a: active {
+  text-decoration: none;
+}
+
+img {
+  max-width: 400px;
+  max-height: 1000px;
+}
+
+svg {
+  display: flex;
+  align-items: column;
+  justify-content: center;
+  max-height: 45px;
+  max-width: 500px;
+}
+footer {
+  background-image: url("https://assets.codepen.io/8046572/Screen+Shot+2022-06-05+at+2.53.44+PM.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 120px;
+  text-align: center;
+  font-family: "Seaweed Script";
+  color: #fffdc6;
+}
+
+/* Flex
+********************************************************************* */
+
+.flexbox-item-about {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.flexbox-item-design {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.flexbox-item-writing {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.flexbox-item-contact {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.flexbox-item-services {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.service-list {
+  display: block;
+  font-size: 25px;
+ list-style: '\272A';
+}
+
+/* Typography
+********************************************************************* */
+h1 {
+  font-family: "Seaweed Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 0;
+  color: #f40909;
+}
+h2 {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 20px;
+  color: black;
+}
+
+h3 {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 20px;
+  color: #fffdc6;
+}
+
+p {
+  font-family: "Tinos";
+  font-style: normal;
+  line-height: 25px;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: "Seaweed Script";
+  color: #fffdc6;
+  font-size: 40px;
+  margin: auto;
+  line-height: auto;
+}
+h5 {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+h6 {
+  font-family: "Tinos";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
